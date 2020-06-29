@@ -32,6 +32,8 @@ const getUsuarioActivo2 = (nombre) => ({ uId: "ABC567", nombre: nombre });
 
 const saludar3 = (nombre) => `Hola, ${nombre}`;
 
+console.log(saludar("Juan"));
+console.log(saludar2("Juan"));
 console.log(saludar3(30));
 console.log(getUser());
 console.log(getUser2());
