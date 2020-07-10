@@ -28,6 +28,8 @@ function getUsuarioActivo(nombre) {
     nombre: nombre,
   };
 }
+//1. Transformar a una función de flecha
+// 2. Retornar un objeto implicito que es sin la palabra return y resuelte el objeto dentro de ()
 const getUsuarioActivo2 = (nombre) => ({ uId: "ABC567", nombre: nombre });
 
 const saludar3 = (nombre) => `Hola, ${nombre}`;
